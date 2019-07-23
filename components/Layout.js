@@ -42,7 +42,7 @@ class Layout extends React.Component {
                     <meta name="description" content="Promoting inclusion, diversity and equality through expert training, coaching and CPD opportunities for software development. A safe space offering community-driven, peer-reviewed and open-source knowledge share." />
                     <link href="/static/css/skel.css" rel="stylesheet" />
                     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
-                    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600,600i" rel="stylesheet" />
+                    <link href="https://fonts.googleapis.com/css?family=Poppins|Source+Sans+Pro:300,300i,600,600i" rel="stylesheet" />
                 </Head>
                 <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
 
