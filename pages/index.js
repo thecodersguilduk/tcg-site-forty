@@ -9,60 +9,61 @@ export default () => (
             <Banner />
 
             <div id="main">
+
+            <section id="two">
+                <div className="inner">
+                    <header className="major">
+                        <h2>Our Work</h2>
+                    </header>
+                    <p>Promoting inclusion, diversity and equality through expert training, coaching and CPD opportunities for software development. A safe space offering community-driven, peer-reviewed and open-source knowledge share.</p>
+                    <ul className="actions">
+                        <li><Link href="#one"><a className="button next">Find out more</a></Link></li>
+                    </ul>
+                </div>
+            </section>
                 <section id="one" className="tiles">
-                    <article style={{backgroundImage: `url('/static/images/pic01.jpg')`}}>
+                    <article style={{backgroundImage: `url('/static/images/dan-training.jpg')`}}>
                         <header className="major">
-                            <h3>Aliquam</h3>
-                            <p>Ipsum dolor sit amet</p>
+                            <h3>YouTube</h3>
+                            <p>Tutorials, Demos and CPD resources</p>
                         </header>
-                        <Link href="/landing"><a className="link primary"></a></Link>
+                        <Link href="https://www.youtube.com/channel/UC_By6GiE5aVoMyoTLr5lGZA"><a className="link primary"></a></Link>
                     </article>
-                    <article style={{backgroundImage: `url('/static/images/pic02.jpg')`}}>
+                    <article style={{backgroundImage: `url('/static/images/github.jpg')`}}>
                         <header className="major">
-                            <h3>Tempus</h3>
-                            <p>feugiat amet tempus</p>
+                            <h3>Github</h3>
+                            <p>Open Source curriculum and training materials</p>
                         </header>
-                        <Link href="/landing"><a className="link primary"></a></Link>
+                        <Link href="https://github.com/thecodersguilduk"><a className="link primary"></a></Link>
                     </article>
-                    <article style={{backgroundImage: `url('/static/images/pic03.jpg')`}}>
+                    <article style={{backgroundImage: `url('/static/images/london-bootcamp.jpg')`}}>
                         <header className="major">
-                            <h3>Magna</h3>
-                            <p>Lorem etiam nullam</p>
+                            <h3>Web Dev Apprenticeship</h3>
+                            <p>Training the next generation of developers</p>
                         </header>
-                        <Link href="/landing"><a className="link primary"></a></Link>
+                        <Link href="https://webdevapprentice.uk/"><a className="link primary"></a></Link>
                     </article>
-                    <article style={{backgroundImage: `url('/static/images/pic04.jpg')`}}>
+                    <article style={{backgroundImage: `url('/static/images/linkedin.jpg')`}}>
                         <header className="major">
-                            <h3>Ipsum</h3>
-                            <p>Nisl sed aliquam</p>
+                            <h3>LinkedIn</h3>
+                            <p>Rescources and knowledge share for Mentors and Managers</p>
                         </header>
-                        <Link href="/landing"><a className="link primary"></a></Link>
+                        <Link href="https://www.linkedin.com/groups/8324305/"><a className="link primary"></a></Link>
                     </article>
-                    <article style={{backgroundImage: `url('/static/images/pic05.jpg')`}}>
+                    <article style={{backgroundImage: `url('/static/images/slack.jpg')`}}>
                         <header className="major">
-                            <h3>Consequat</h3>
-                            <p>Ipsum dolor sit amet</p>
+                            <h3>Slack</h3>
+                            <p>Knowledge share and support for developers</p>
                         </header>
-                        <Link href="/landing"><a className="link primary"></a></Link>
+                        <Link href="https://wdanuk.slack.com"><a className="link primary"></a></Link>
                     </article>
-                    <article style={{backgroundImage: `url('/static/images/pic06.jpg')`}}>
+                    <article style={{backgroundImage: `url('/static/images/hippo-js.jpg')`}}>
                         <header className="major">
-                            <h3>Etiam</h3>
-                            <p>Feugiat amet tempus</p>
+                            <h3>Web Dev Meet-up</h3>
+                            <p>Lunch and Learn sessions in Leeds</p>
                         </header>
-                        <Link href="/landing"><a className="link primary"></a></Link>
+                        <Link href="https://leedswebdev.org/"><a className="link primary"></a></Link>
                     </article>
-                </section>
-                <section id="two">
-                    <div className="inner">
-                        <header className="major">
-                            <h2>Massa libero</h2>
-                        </header>
-                        <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-                        <ul className="actions">
-                            <li><Link href="/landing"><a className="button next">Get Started</a></Link></li>
-                        </ul>
-                    </div>
                 </section>
             </div>
 
