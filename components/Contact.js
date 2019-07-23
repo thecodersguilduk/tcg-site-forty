@@ -2,7 +2,7 @@ const Contact = (props) => (
     <section id="contact">
         <div className="inner">
             <section>
-                <form method="post" action="#">
+                <form method="post" action="https://formspree.io/hello@thecodersguild.org.uk" >
                     <div className="field half first">
                         <label htmlFor="name">Name</label>
                         <input type="text" name="name" id="name" />
@@ -26,23 +26,23 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-envelope"></span>
                         <h3>Email</h3>
-                        <a href="#">information@untitled.tld</a>
+                        <a href="mailto:hello@thecodersguild.org.uk">hello@thecodersguild.org.uk</a>
                     </div>
                 </section>
                 <section>
                     <div className="contact-method">
                         <span className="icon alt fa-phone"></span>
                         <h3>Phone</h3>
-                        <span>(000) 000-0000 x12387</span>
+                        <span>0113 460 1024</span>
                     </div>
                 </section>
                 <section>
                     <div className="contact-method">
                         <span className="icon alt fa-home"></span>
                         <h3>Address</h3>
-                        <span>1234 Somewhere Road #5432<br />
-                        Nashville, TN 00000<br />
-                        United States of America</span>
+                        <span><a href="https://goo.gl/maps/UepHrDsXD962" title="map and directions">Duke Studios</a><br />
+                        3 Sheaf St<br />
+                        Leeds LS10 1HD</span>
                     </div>
                 </section>
             </section>
