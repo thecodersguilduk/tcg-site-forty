@@ -29,7 +29,7 @@ const Banner = (props) => (
               <h1>The Coders Guild</h1>
               </header>
               <div className="content">
-                  <p>Wellbeing and progression for devs</p>
+                  <p>Wellbeing and progression for developers</p>
               </div>
               </div>
             </div>
