@@ -10,8 +10,12 @@ const Footer = (props) => (
                 <li><a href="https://www.youtube.com/channel/UC_By6GiE5aVoMyoTLr5lGZA" className="icon alt fa-youtube"><span className="label">YouTube</span></a></li>
             </ul>
             <ul className="copyright">
-                <li>&copy; The Coders Guild 2019</li><li>Reg England and Wales: 9622444</li> <li>UKPRN 10058030</li> <li><a href="/static/docs/tcg_privacy_policy.pdf">Privacy policy</a></li> <li><a href="/static/docs/tcg_complaints_policy.pdf">Complaints policy</a></li> <li><a href="/static/docs/tcg_equality_diversity_policy.pdf">Equality and Diversity</a></li>
+                <li>&copy; The Coders Guild 2019</li><li>Reg England and Wales: 9622444</li> <li>UKPRN 10058030</li>
             </ul>
+            <ul className="copyright">
+                <li><a href="/static/docs/tcg_privacy_policy.pdf">Privacy policy</a></li> <li><a href="/static/docs/tcg_complaints_policy.pdf">Complaints policy</a></li> <li><a href="/static/docs/tcg_equality_diversity_policy.pdf">Equality and Diversity</a></li>  <li><a href="/static/docs/tcg_.pdf">Modern Slavery</a></li>
+            </ul>
+
         </div>
     </footer>
 )
