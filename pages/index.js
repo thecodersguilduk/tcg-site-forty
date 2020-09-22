@@ -16,20 +16,10 @@ export default () => (
               <h2>Our Work</h2>
             </header>
             <p>
-              Promoting inclusion, diversity and equality through expert
-              training, coaching and CPD opportunities for software development.
-              A safe space offering community-driven, peer-reviewed and
-              open-source knowledge share.
+            Promoting inclusion, diversity and equality through expert training, coaching and CPD opportunities. A safe space offering community-driven, peer-reviewed and open-source knowledge share.
             </p>
             <p>
-              We are best known for creating the nations first industry led
-              digital apprenticeship. This scheme recently recieved the silver
-              award in the <strong>Apprenticeship Of The Year</strong> awards
-              for our work improving diversty in the industry. We are following
-              on the success of this programme with apprenticeships in Software
-              Testing, Data Analysis and Digital Marketing. We also provide CPD
-              training and coaching for indivuals and teams as well as
-              consultnacy and development of bespoke training programmes.{" "}
+            We are best known for creating the nations first industry led digital apprenticeship. We are following on the success of this programme with apprenticeships in Software Testing, Data Analysis and Digital Marketing. We also provide CPD training and coaching for individuals and teams as well as consultancy and development of bespoke training programmes.
             </p>
           </div>
         </section>
